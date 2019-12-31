@@ -56,6 +56,9 @@
                         "Affinities": null,
                         "Artifacts": null,
                         "Config": {
+                            "cap_add": [
+                                "SYS_PTRACE"
+                            ],
                             "image": "netdata/netdata:latest",
                             "port_map": [
                                 {
@@ -66,9 +69,6 @@
                                 "/proc:/host/proc",
                                 "/sys:/host/sys",
                                 "/var/run/docker.sock:/var/run/docker.sock"
-                            ],
-                            "cap_add": [
-                                "SYS_PTRACE"
                             ]
                         },
                         "Constraints": null,

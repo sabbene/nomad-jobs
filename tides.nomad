@@ -56,6 +56,7 @@
                         "Affinities": null,
                         "Artifacts": null,
                         "Config": {
+                            "image": "sabbene/docker-tides:latest",
                             "port_map": [
                                 {
                                     "http": 80.0
@@ -63,8 +64,7 @@
                                 {
                                     "https": 443.0
                                 }
-                            ],
-                            "image": "sabbene/docker-tides:latest"
+                            ]
                         },
                         "Constraints": null,
                         "DispatchPayload": null,

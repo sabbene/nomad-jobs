@@ -56,12 +56,12 @@
                         "Affinities": null,
                         "Artifacts": null,
                         "Config": {
-                            "image": "haproxy:2.0",
-                            "network_mode": "host",
                             "volumes": [
                                 "local/haproxy.cfg:/usr/local/etc/haproxy/haproxy.cfg",
                                 "/mnt/ssl:/ssl"
-                            ]
+                            ],
+                            "image": "haproxy:2.0",
+                            "network_mode": "host"
                         },
                         "Constraints": null,
                         "DispatchPayload": null,

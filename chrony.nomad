@@ -56,11 +56,11 @@
                         "Affinities": null,
                         "Artifacts": null,
                         "Config": {
-                            "network_mode": "host",
                             "cap_add": [
                                 "SYS_TIME"
                             ],
-                            "image": "sabbene/docker-chrony:latest"
+                            "image": "sabbene/docker-chrony:latest",
+                            "network_mode": "host"
                         },
                         "Constraints": null,
                         "DispatchPayload": null,
