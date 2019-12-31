@@ -56,6 +56,7 @@
                         "Affinities": null,
                         "Artifacts": null,
                         "Config": {
+                            "image": "sabbene/docker-nginx:latest",
                             "port_map": [
                                 {
                                     "http": 8080.0
@@ -63,8 +64,7 @@
                                 {
                                     "https": 4443.0
                                 }
-                            ],
-                            "image": "sabbene/docker-nginx:latest"
+                            ]
                         },
                         "Constraints": null,
                         "DispatchPayload": null,
